@@ -1,0 +1,28 @@
+{
+  "name": "hackify",
+  "version": "1.0.0",
+  "description": "A platform where developers can share their code snippets, projects, and portfolios with other developers and get feedback, tips, and collaboration opportunities.",
+  "main": "index.js",
+  "repository": "https://github.com/pritam1813/Hackify.git",
+  "author": "Pritam Dhara",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1"
+  }
+}
